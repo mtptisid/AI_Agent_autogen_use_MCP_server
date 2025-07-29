@@ -1,0 +1,11 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "Activate venv and install requirements",
+			"command": "source .venv/bin/activate && pip install -r requirements.txt",
+			"group": "build"
+		}
+	]
+}
